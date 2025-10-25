@@ -2,33 +2,33 @@
 
 A comprehensive AI-driven platform that generates custom business databases and provides intelligent business analytics through RAG (Retrieval-Augmented Generation) technology. The system combines OpenAI's GPT-4 with Tavily API for external market research, enabling businesses to get data-driven insights from both internal data and external market trends.
 
-## 🚀 Key Features
+## Key Features
 
-### 🏗️ **AI Database Generation**
+### **AI Database Generation**
 - **Custom Business Databases**: Generate complete database schemas for 11+ business types (E-commerce, Healthcare, Finance, Manufacturing, etc.)
 - **Intelligent Schema Design**: AI-powered table relationships, constraints, and indexing
 - **Realistic Sample Data**: Automatically populate databases with business-realistic data
 - **Multiple Complexity Levels**: From simple (3-5 tables) to enterprise (25+ tables)
 
-### 💬 **Intelligent Business Chatbot**
+### **Intelligent Business Chatbot**
 - **Natural Language Queries**: Ask business questions in plain English
 - **Multi-Source RAG**: Combines database queries, vector search, and external research
 - **Real-time Analysis**: Instant insights on sales, customers, products, and performance
 - **External Market Research**: Industry trends and competitive intelligence via Tavily API
 
-### 🏢 **Multi-Company Management**
+### **Multi-Company Management**
 - **Company Profiles**: Create and manage multiple business entities
 - **Database Switching**: Seamlessly switch between different company databases
 - **Custom Business Types**: Support for E-commerce, Healthcare, Finance, Technology, Retail, and more
 - **Isolated Environments**: Each company maintains separate data and context
 
-### 🤖 **Multi-Agent Architecture**
+### **Multi-Agent Architecture**
 - **Data Analyst Agent**: SQL query generation and data extraction
 - **Business Advisor Agent**: Strategic insights and recommendations
 - **Trend Analysis Agent**: Market trends and temporal pattern analysis
 - **Report Generator Agent**: Automated business report creation
 
-### 🎨 **Modern React Frontend**
+### **Modern React Frontend**
 - **Glassmorphism Design**: Modern glass-like UI with backdrop blur effects
 - **Responsive Layout**: Mobile and desktop optimized interface
 - **Real-time Chat**: Interactive business intelligence conversations
@@ -36,7 +36,7 @@ A comprehensive AI-driven platform that generates custom business databases and 
 - **Data Visualization**: Explore database schemas and sample data
 - **AI-Generated Components**: All React components created with AI assistance
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
@@ -58,7 +58,7 @@ A comprehensive AI-driven platform that generates custom business databases and 
                        └─────────────────┘
 ```
 
-### 🎯 **Supported Business Types**
+### **Supported Business Types**
 - **E-commerce**: Product catalogs, orders, customers, inventory
 - **Healthcare**: Patients, appointments, medical records, staff
 - **Finance**: Accounts, transactions, clients, portfolios
@@ -71,7 +71,7 @@ A comprehensive AI-driven platform that generates custom business databases and 
 - **Consulting**: Projects, clients, consultants, deliverables
 - **Custom**: Define your own business requirements
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── app/                    # FastAPI web application
@@ -120,7 +120,7 @@ A comprehensive AI-driven platform that generates custom business databases and 
 └── requirements.txt       # Python dependencies
 ```
 
-## 🛠️ Quick Start Guide
+## Quick Start Guide
 
 ### 1. Prerequisites
 - **Python 3.13+** with pip
@@ -175,7 +175,7 @@ npm start
 - **React Frontend**: http://localhost:3000 (recommended)
 - **Backend API + Legacy Frontend**: http://localhost:8010
 
-## 🎯 Getting Started - Usage Examples
+## Getting Started - Usage Examples
 
 ### Creating Your First Business Database
 
@@ -189,24 +189,24 @@ npm start
 
 ### Example Business Questions
 
-#### 📊 **Data Analysis**
+#### **Data Analysis**
 - "What are our top 10 best-selling products this quarter?"
 - "Show me customer lifetime value by segment"
 - "Which regions have the highest profit margins?"
 - "What's our average order value trend?"
 
-#### 📈 **Trend Analysis**
+#### **Trend Analysis**
 - "How have our sales changed over the last 6 months?"
 - "Which product categories are growing fastest?"
 - "Show me seasonal patterns in customer behavior"
 - "What are our customer retention rates by cohort?"
 
-#### 🔍 **Comparative Analysis**
+#### **Comparative Analysis**
 - "Compare performance between our Electronics and Clothing divisions"
 - "Which customer segments have the best satisfaction scores?"
 - "How do our Premium vs Standard customers differ?"
 
-#### 🌍 **Market Research** (via Tavily API)
+#### **Market Research** (via Tavily API)
 - "What are current trends in the healthcare technology market?"
 - "How do our customer satisfaction scores compare to industry standards?"
 - "What innovations are competitors introducing in e-commerce?"
@@ -231,7 +231,7 @@ npm start
 - "How do our customer satisfaction scores compare to industry benchmarks?"
 - "What are competitors doing in the smartphone market?"
 
-## ⚙️ Advanced Configuration
+## Advanced Configuration
 
 ### Environment Variables (`.env`)
 The system is pre-configured, but you can customize:
@@ -260,7 +260,7 @@ DEFAULT_PORT=8002                       # Default server port
 DEBUG_MODE=True                         # Enable debug logging
 ```
 
-## 🧠 Technical Architecture Details
+## Technical Architecture Details
 
 ### AI Database Generation Pipeline
 1. **Business Analysis**: LLM analyzes business description and requirements
@@ -282,7 +282,7 @@ DEBUG_MODE=True                         # Enable debug logging
 - **Trend Analyst**: Temporal pattern analysis and forecasting
 - **Report Generator**: Automated report creation and formatting
 
-## � Supported Database Schemas
+## Supported Database Schemas
 
 ### Complexity Levels
 - **Simple** (3-5 tables): Basic business operations
@@ -296,7 +296,7 @@ DEBUG_MODE=True                         # Enable debug logging
 - **Finance**: accounts, transactions, clients, portfolios, investments, compliance_records
 - **Technology**: projects, developers, deployments, bugs, features, analytics_events
 
-## 🚀 Deployment Options
+## Deployment Options
 
 ### Development Server
 ```powershell
@@ -316,11 +316,11 @@ py -m uvicorn app.main:app --host 0.0.0.0 --port 8002 --workers 4
 py -m uvicorn app.main:app --host 0.0.0.0 --port 8002 --workers 4 --access-log
 ```
 
-## 🤝 Project Vision & Educational Goals
+## Project Vision & Educational Goals
 
 This **AI Software Engineering Capstone Project** demonstrates advanced AI engineering concepts:
 
-### 🎓 **Core Learning Objectives**
+### **Core Learning Objectives**
 1. **RAG Systems**: Building production-ready Retrieval-Augmented Generation with multiple data sources
 2. **AI Database Generation**: Using LLMs to create realistic, business-specific database schemas
 3. **Multi-Agent Architecture**: Coordinating specialized AI agents for complex business workflows
@@ -328,7 +328,7 @@ This **AI Software Engineering Capstone Project** demonstrates advanced AI engin
 5. **API Integration**: Combining multiple AI services (OpenAI, Tavily) into cohesive business solutions
 6. **Full-Stack AI**: End-to-end AI application development from database to user interface
 
-### 🏗️ **Engineering Best Practices**
+### **Engineering Best Practices**
 - **Modular Architecture**: Clean separation of concerns across database, RAG, agents, and API layers
 - **Configuration Management**: Environment-based configuration with secure API key handling
 - **Error Handling**: Comprehensive logging and graceful degradation
@@ -336,13 +336,13 @@ This **AI Software Engineering Capstone Project** demonstrates advanced AI engin
 - **Documentation**: Extensive documentation and setup instructions
 - **Scalability**: Multi-company support with isolated data environments
 
-### 🌟 **Innovation Highlights**
+### **Innovation Highlights**
 - **Dynamic Business Modeling**: AI generates complete business databases from natural language descriptions
 - **Context-Aware Intelligence**: RAG system that understands business context and provides relevant insights
 - **Real-World Application**: Solves actual business intelligence challenges faced by modern companies
 - **Multi-Source Integration**: Combines internal data analysis with external market research
 
-## 🆘 Troubleshooting & Support
+## Troubleshooting & Support
 
 ### Common Issues & Solutions
 
@@ -384,39 +384,27 @@ py -m rag.vector_store --rebuild
 - **Health Check**: Visit `http://127.0.0.1:8002/api/v1/health` to verify system status
 - **Documentation**: See `SETUP_INSTRUCTIONS.md` for detailed setup guidance
 
-## 🏆 Project Achievements & Impact
+## Project Achievements & Impact
 
-### 📈 **Technical Accomplishments**
-- ✅ **11+ Business Types Supported**: From E-commerce to Healthcare, with custom options
-- ✅ **4 Complexity Levels**: Simple to Enterprise-grade database schemas
-- ✅ **Multi-Agent AI System**: Specialized agents for different business functions
-- ✅ **Real-Time Intelligence**: Instant business insights from natural language queries
-- ✅ **External Market Research**: Tavily API integration for industry analysis
-- ✅ **Zero-Setup Experience**: Pre-configured with working API keys
-- ✅ **Production-Ready**: Full error handling, logging, and scalability features
+### **Technical Accomplishments**
+- **11+ Business Types Supported**: From E-commerce to Healthcare, with custom options
+- **4 Complexity Levels**: Simple to Enterprise-grade database schemas
+- **Multi-Agent AI System**: Specialized agents for different business functions
+- **Real-Time Intelligence**: Instant business insights from natural language queries
+- **External Market Research**: Tavily API integration for industry analysis
+- **Zero-Setup Experience**: Pre-configured with working API keys
+- **Production-Ready**: Full error handling, logging, and scalability features
 
-### 🎯 **Business Value Delivered**
+### **Business Value Delivered**
 - **Rapid Prototyping**: Generate complete business databases in minutes, not weeks
 - **Data-Driven Decisions**: Transform raw business data into actionable insights
 - **Market Intelligence**: Combine internal analytics with external market trends
 - **Cost Efficiency**: Reduce database design and business intelligence development time by 90%
 - **Accessibility**: Non-technical users can perform complex business analysis
 
-### 🔬 **Innovation Impact**
+### **Innovation Impact**
 This project pushes the boundaries of AI application in business intelligence by:
 - Demonstrating how LLMs can generate realistic, production-ready database schemas
 - Showing the power of RAG systems that combine multiple data sources intelligently
 - Proving that AI agents can coordinate to solve complex business problems
 - Creating a template for AI-driven business application development
-
----
-
-## 📝 License & Academic Use
-
-**Educational Project** - AI Software Engineering Capstone Course  
-**Repository**: [github.com/wigginsjbah/AI-Software-Engineering-Capstone-Project](https://github.com/wigginsjbah/AI-Software-Engineering-Capstone-Project)  
-**Purpose**: Demonstrates advanced AI engineering concepts in production-ready applications
-
----
-
-*Built with ❤️ using OpenAI GPT-4, Tavily API, FastAPI, and modern AI engineering practices*
